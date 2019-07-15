@@ -1,5 +1,5 @@
 {
-    "package-name": "divio-telemetry-apm",
+    "package-name": "js-telemetry-apm",
     "installed-apps": [
         "telemetry_apm"
     ]

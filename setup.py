@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from telemetry_apm import __version__
 
 setup(
-    name='divio-telemetry-apm',
+    name='js-telemetry-apm',
     version=__version__,
     description=open('README.rst').read(),
     author='Divio AG',
