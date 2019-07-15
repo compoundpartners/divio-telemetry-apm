@@ -72,7 +72,7 @@ class Form(forms.BaseForm):
         from aldryn_addons.utils import boolean_ish, djsenv
         env = partial(djsenv, settings=settings)
         enable_elastic_apm = boolean_ish(env('ENABLE_ELASTIC_APM', True))
-        enable_elastic_apm = True
+        #enable_elastic_apm = True
 
         if enable_elastic_apm:
             self.check_threads()
